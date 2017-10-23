@@ -1,24 +1,21 @@
-<!doctype html>
+<idoctype html>
 <head>
 	<meta charset = "utf-8">
 	<link href='normalize.css' rel="stylesheet">
 	<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
 	<style>
 		html { font-family: 'Spoqa Han Sans'; font-weight: 200;}
-		.section{height:600px;width:100%; position: relative;}
-		header{height:200px; background: #CD858E; width:100%; transition: all 0.3s}
-		header #logo{width:200px;text-align: center;height:44px;line-height: 44px;font-size:3em;font-weight:700;position:relative;left:calc(50% - 100px);transition: all 0.3s;color:white}
-
-	
-		
-		header #menu{width:250px;height:50px;position:relative;left:50%;top:80px;transition: all 0.3s;margin-left:-120px;}
-		header li{width:50px;height:50px;color:black;background: white;float:left;border-radius: 50px;text-align: center;line-height: 50px;color:#CD858E;font-size: 2em;position:center;margin-top: 20px;}
+		.section{height:600px;width:100%; position: relative}
+		header{height:200px; background: #CD858E;width:100%; transition: all 0.3s}
+		header #logo{width:200px;text-align: center;height:44px;line-height: 44px;font-size:3em;font-weight: 700;position:relative;left:calc(50% - 100px);transition: all 0.3s;color:white}
+		header #menu{width:250px;height:100px;position:relative;left:50%;top:80px;transition: all 0.3s;margin-left:-120px;}
+		header li{width:50px;height:50px;background:white;float:left;border-radius: 50px;text-align: center;line-height: 53px;color:#CD858E;font-size: 2em;position:center;margin-top: 20px;}
 		h1{position:absolute;width:100%;color:white;font-size: 3em;text-align: center;padding-top:280px; line-height: 1.2;padding-left: 100px;padding-right: 100px;letter-spacing: -1px;}
 
 		#sectionA{ background: url('4.jpeg'); background-size:contain;transition: all 1s;}
 		#sectionB{ background: url('1.jpg'); background-size:contain;transition: all 1s;}
 		#sectionC{ background: url('2.png');background-size:contain;transition: all 1s;}
-		#sectionD{ background: #CD858E; transition: all 3s; }
+		#sectionD{ background: #CD858E; transition: all 1s; }
 		#sectionE{ background: url('3.jpeg');background-size:contain;transition: all 1s; }
 
 		#titleA{transition: all 1s;}
@@ -30,7 +27,7 @@
 </head>
 
 <body>
-<audio src="m.mp4" autoplay loop preload></audio>
+<//audio src="m.mp4" autoplay loop preload></audio>
 <header id="header">
 	<div id="logo">Favorite</div>
 	<div id="menu">
@@ -44,7 +41,7 @@
 	</div>
 </header>
 <div class="section" id="sectionA">
-	<h1 id="titleA" >Pink is lovely</h1>
+	<h1 id="titleA">Pink is lovely</h1>
 </div>
 <div class="section" id="sectionB">
 	<h1 id="titleB">신모래 감성</h1>
@@ -57,10 +54,8 @@
 </div>
 <div class="section" id="sectionE">
 	<h1 id="titleE">카페에서 과제하기</h1>
-
 </div>
 <div class="section">
-
 	<img src="jh.png" style="height:600px;position: absolute; top:0px;right:100px;margin-top:20px;">	
 	<h1 style="color:black;margin-left:-180px;">Lee ju hyeon</h1>
 </div>
@@ -95,7 +90,7 @@
 
 		if(scrollH > 280){
 			titleA.style.paddingTop = "500px";
-			menuA.style.background = "#F6B9C0";
+			menuA.style.background = "pink";
 		}else{
 			titleA.style.paddingTop = "280px";
 			menuA.style.background = "white";
